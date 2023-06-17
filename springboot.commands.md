@@ -6,7 +6,7 @@ export PATH=/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/:
 ```
 
 
-### find all java local machine
+### find all java at local machine
 ```
 mdfind -name 'java' | grep '/bin/java$' 
 ```
