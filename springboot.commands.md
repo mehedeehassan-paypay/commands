@@ -10,3 +10,20 @@ export PATH=/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/:
 ```
 mdfind -name 'java' | grep '/bin/java$' 
 ```
+
+
+### run gradle commands
+
+
+```
+./gradlew build
+./gradlew bootrun
+```
+
+
+### docker commands
+
+```
+docker ps
+docker compose up
+```
